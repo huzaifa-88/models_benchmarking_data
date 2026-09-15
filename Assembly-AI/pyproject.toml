@@ -1,0 +1,12 @@
+[project]
+name = "assembly-ai"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "assemblyai>=0.64.21",
+    "mutagen>=1.48.0",
+    "pydub>=0.25.1",
+    "python-dotenv>=1.2.2",
+]

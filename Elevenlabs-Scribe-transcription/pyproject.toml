@@ -1,0 +1,16 @@
+[project]
+name = "elevenlabs-scribe-transcription"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "ffmpeg>=1.4",
+    "mutagen>=1.47.0",
+    "numpy>=2.4.6",
+    "pydub>=0.25.1",
+    "python-dotenv>=1.2.2",
+    "requests>=2.34.2",
+    "sounddevice>=0.5.5",
+    "websocket-client>=1.9.0",
+]
