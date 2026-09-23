@@ -1,0 +1,36 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+google.json
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Python environments and packaging output
+.venv/
+venv/
+env/
+ENV/
+build/
+dist/
+wheels/
+*.egg-info/
+
+# Test and coverage output
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+
+# Editor and operating system files
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
